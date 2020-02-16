@@ -1,0 +1,11 @@
+module.exports = {
+  username: '',
+  password: '',
+  database: 'tdd',
+  storage: './tdd.db',
+  host: 'localhost',
+  dialect: 'sqlite',
+  define: {
+    timestamps: true
+  }
+}
